@@ -1,0 +1,271 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E4D2E8451E89702B007510FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D2E8441E89702B007510FC /* main.m */; };
+		E4D2E84D1E897040007510FC /* RPSTurn.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D2E84C1E897040007510FC /* RPSTurn.m */; };
+		E4D2E8501E897169007510FC /* RPSGame.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D2E84F1E897169007510FC /* RPSGame.m */; };
+		E4D2E8531E89C916007510FC /* RPSController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D2E8521E89C916007510FC /* RPSController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E4D2E83F1E89702B007510FC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E4D2E8411E89702B007510FC /* RockPaperScissorObjectiveC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RockPaperScissorObjectiveC; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4D2E8441E89702B007510FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E4D2E84B1E897040007510FC /* RPSTurn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPSTurn.h; sourceTree = "<group>"; };
+		E4D2E84C1E897040007510FC /* RPSTurn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPSTurn.m; sourceTree = "<group>"; };
+		E4D2E84E1E897169007510FC /* RPSGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPSGame.h; sourceTree = "<group>"; };
+		E4D2E84F1E897169007510FC /* RPSGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPSGame.m; sourceTree = "<group>"; };
+		E4D2E8511E89C916007510FC /* RPSController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPSController.h; sourceTree = "<group>"; };
+		E4D2E8521E89C916007510FC /* RPSController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPSController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4D2E83E1E89702B007510FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E4D2E8381E89702B007510FC = {
+			isa = PBXGroup;
+			children = (
+				E4D2E8431E89702B007510FC /* RockPaperScissorObjectiveC */,
+				E4D2E8421E89702B007510FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E4D2E8421E89702B007510FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4D2E8411E89702B007510FC /* RockPaperScissorObjectiveC */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4D2E8431E89702B007510FC /* RockPaperScissorObjectiveC */ = {
+			isa = PBXGroup;
+			children = (
+				E4D2E8441E89702B007510FC /* main.m */,
+				E4D2E84B1E897040007510FC /* RPSTurn.h */,
+				E4D2E84C1E897040007510FC /* RPSTurn.m */,
+				E4D2E84E1E897169007510FC /* RPSGame.h */,
+				E4D2E84F1E897169007510FC /* RPSGame.m */,
+				E4D2E8511E89C916007510FC /* RPSController.h */,
+				E4D2E8521E89C916007510FC /* RPSController.m */,
+			);
+			path = RockPaperScissorObjectiveC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4D2E8401E89702B007510FC /* RockPaperScissorObjectiveC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4D2E8481E89702B007510FC /* Build configuration list for PBXNativeTarget "RockPaperScissorObjectiveC" */;
+			buildPhases = (
+				E4D2E83D1E89702B007510FC /* Sources */,
+				E4D2E83E1E89702B007510FC /* Frameworks */,
+				E4D2E83F1E89702B007510FC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RockPaperScissorObjectiveC;
+			productName = RockPaperScissorObjectiveC;
+			productReference = E4D2E8411E89702B007510FC /* RockPaperScissorObjectiveC */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4D2E8391E89702B007510FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Guilherme Cateli";
+				TargetAttributes = {
+					E4D2E8401E89702B007510FC = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E4D2E83C1E89702B007510FC /* Build configuration list for PBXProject "RockPaperScissorObjectiveC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E4D2E8381E89702B007510FC;
+			productRefGroup = E4D2E8421E89702B007510FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4D2E8401E89702B007510FC /* RockPaperScissorObjectiveC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4D2E83D1E89702B007510FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4D2E84D1E897040007510FC /* RPSTurn.m in Sources */,
+				E4D2E8451E89702B007510FC /* main.m in Sources */,
+				E4D2E8501E897169007510FC /* RPSGame.m in Sources */,
+				E4D2E8531E89C916007510FC /* RPSController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E4D2E8461E89702B007510FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E4D2E8471E89702B007510FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E4D2E8491E89702B007510FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E4D2E84A1E89702B007510FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4D2E83C1E89702B007510FC /* Build configuration list for PBXProject "RockPaperScissorObjectiveC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4D2E8461E89702B007510FC /* Debug */,
+				E4D2E8471E89702B007510FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4D2E8481E89702B007510FC /* Build configuration list for PBXNativeTarget "RockPaperScissorObjectiveC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4D2E8491E89702B007510FC /* Debug */,
+				E4D2E84A1E89702B007510FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4D2E8391E89702B007510FC /* Project object */;
+}
